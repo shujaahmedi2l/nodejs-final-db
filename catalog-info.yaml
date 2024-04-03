@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "nodejs-final-db"
+  description: "nothing"
+  annotations:
+    github.com/project-slug: "shujaahmedi2l/nodejs-final-db"
+    argocd/app-name: "nodejs-final-db"
+  links:
+    - url: https://nodejs-final.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
